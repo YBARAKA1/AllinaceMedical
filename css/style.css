@@ -194,7 +194,7 @@ header{
     width: 0;
     transition: 0.3s ease-in-out;
 }
-.service-content:hover::before{
+.service a:hover .service-content::before{
     width: 50%;
 }
 .service-btn{
@@ -222,4 +222,25 @@ header{
 .service-icon{
     font-size: 40px;
     margin: 22px;
+}
+.call{
+    display: inline-block;
+    width: 40px;
+    vertical-align: middle;
+}
+.call-number{
+    width: calc(100% - 54px);
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.call-number p{
+    font-size: 14px;
+
+    text-transform: uppercase;
+}
+.call-number h3{
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
